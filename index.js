@@ -25,10 +25,6 @@ function currentLine(line) {
   {
     return "The line is currently empty."
   }
-  else
-  {
-    return "The line is currently: " + line;
-  }
-  
-  ret
+ 
+  return "The line is currently: " + line;
 }
