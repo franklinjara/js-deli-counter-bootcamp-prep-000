@@ -29,7 +29,7 @@ function currentLine(line) {
   var number;
   
   for (var i = 0; i < line.length; i++){
-    number = line[i];
+    number = i.length;
   }
  
   return "The line is currently: " + number; 
