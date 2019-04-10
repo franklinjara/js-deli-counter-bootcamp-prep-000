@@ -5,3 +5,4 @@ function takeANumber(katzDeliLine, name) {
   
   return "Welcome, " + name + ". You are number " + position + " in line."
 }
+
