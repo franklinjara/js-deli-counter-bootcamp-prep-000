@@ -29,7 +29,7 @@ function currentLine(line) {
   let number = `The line is currently: 1. ${line[0]}`;
   
   for (let i = 1; i < line.length; i++){
-    number += `, ${2+i}. ${line[i]} `;
+    number += `, ${1+i}. ${line[i]} `;
   }
  
   return number; 
