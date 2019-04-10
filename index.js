@@ -26,7 +26,7 @@ function currentLine(line) {
     return "The line is currently empty."
   }
   
-  var number = ``;
+  var number = `The line is currently: 1. ${line}`;
   
   for (var i = 0; i < line.length; i++){
     number = line[i];
