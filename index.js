@@ -15,4 +15,6 @@ function nowServing(line) {
   }
   
   name = line.shift();
+  
+  return ""
 }
