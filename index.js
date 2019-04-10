@@ -8,6 +8,10 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine === "") {
-    katzDeliLine;
+    console.log("There is nobody waiting to be served.")
+  }
+  else
+  {
+    console.log(katzDeliLine);
   }
 }
