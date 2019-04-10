@@ -16,5 +16,5 @@ function nowServing(line) {
   
   name = line.shift();
   
-  return ""
+  return "Currently serving " + name + "."
 }
