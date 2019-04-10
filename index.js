@@ -32,5 +32,5 @@ function currentLine(line) {
     number += `, ${1+i}. ${line[i]}`;
   }
  
-  return "The line is currently: " + number; 
+  return number; 
 }
