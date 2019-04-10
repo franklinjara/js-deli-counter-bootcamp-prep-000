@@ -26,7 +26,7 @@ function currentLine(line) {
     return "The line is currently empty."
   }
   
-  let number = `The line is currently: `;
+  let number = `The line is currently: ,`;
   
   for (let i = 0; i < line.length; i++){
     number += `${1+i}. ${line[i]}`;
