@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
   }
   else
   {
-    console.log(katzDeliLine);
+    katzDeliLine;
   }
   
   return katzDeliLine;
