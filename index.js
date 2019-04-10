@@ -18,3 +18,7 @@ function nowServing(line) {
   
   return "Currently serving " + name + ".";
 }
+
+function currentLine(line) {
+  if 
+}
