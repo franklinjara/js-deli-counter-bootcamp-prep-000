@@ -30,7 +30,6 @@ function currentLine(line) {
   
   for (var i = 0; i < line.length; i++){
     number = line[i];
-    number++;
   }
  
   return "The line is currently: " + number; 
