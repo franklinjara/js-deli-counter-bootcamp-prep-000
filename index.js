@@ -14,4 +14,6 @@ function nowServing(katzDeliLine) {
   {
     console.log(katzDeliLine);
   }
+  
+  return katzDeliLine;
 }
